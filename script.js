@@ -1,6 +1,6 @@
 let capthacheck = false;
 function beforesubmit(event) {
-  if (captchaChecked) {
+  if (capthacheck) {
     let datepicker = document.querySelector(".lead_date");
     let hiddendatepicker = document.querySelector(".lead_date__c");
 
