@@ -12,6 +12,9 @@ label,
 input {
   display: block;
 }
+label {
+  color: green;
+}
 
 input {
   width: 100%;
@@ -20,6 +23,8 @@ input {
 input[type="submit"] {
   margin: 15px auto 0 auto;
   width: 40%;
+  background-color: rgb(197, 197, 241);
+  border-radius: 5px;
 }
 
 form {
